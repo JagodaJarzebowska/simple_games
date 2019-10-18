@@ -12,7 +12,7 @@ public class RandomGame {
         int userNumber;
         int hit = 0;
         do {
-            System.out.println("Podaj liczbę: ");
+            System.out.println("###Podaj liczbę: ");
             userNumber = scanner.nextInt();
             if (userNumber > winNumber) {
                 System.out.println("Wprowadzona liczba jest większa od wylosowanej. Gramy dalej! Celuj niżej.");
